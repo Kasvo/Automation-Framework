@@ -1,0 +1,209 @@
+23:09:03.647 [main] INFO  c.b.launchers.LaunchMavenCommand - Executing maven archetype command - browserstack-sdk-archetype-integrate
+23:09:03.655 [main] INFO  c.b.launchers.LaunchMavenCommand - The maven properties for launcher are [archetypeVersion=1.2, archetypeGroupId=com.browserstack, archetypeArtifactId=browserstack-sdk-archetype-integrate, BROWSERSTACK_ACCESS_KEY=CSfTQvHuq1NqyyrxoAFs, groupId=com.browserstack, artifactId=java-archetype-integrate, BROWSERSTACK_USERNAME=ankitsuman_p6345U, BROWSERSTACK_FRAMEWORK=java, BUILD_NAME=browserstack build, version=1.0, PROJECT_NAME=BrowserStack Sample, BROWSERSTACK_SOURCE=java:eclipse:v1.0.3]
+23:09:03.657 [Worker-384: Launching mavenrun-59fc3b2c-58ba-46c0-8662-3af18d49131c] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+23:09:15.193 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+23:09:15.193 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys [BROWSERSTACK_PLUGIN_ENABLED]
+23:09:15.193 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : false P/Automartion-Project
+23:09:15.194 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+23:09:15.194 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys [BROWSERSTACK_PLUGIN_ENABLED]
+23:09:15.194 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : true P/Automartion-Project
+23:10:00.166 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+23:10:00.167 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys [BROWSERSTACK_PLUGIN_ENABLED]
+23:10:00.167 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : false P/Automartion-Project
+23:10:00.167 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+23:10:00.168 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys [BROWSERSTACK_PLUGIN_ENABLED]
+23:10:00.168 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : true P/Automartion-Project
+23:10:01.825 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+23:10:01.825 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys [BROWSERSTACK_PLUGIN_ENABLED]
+23:10:01.826 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : false P/Automartion-Project
+23:10:01.826 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+23:10:01.826 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys [BROWSERSTACK_PLUGIN_ENABLED]
+23:10:01.827 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : true P/Automartion-Project
+23:10:02.917 [main] INFO  c.b.BrowserStackPluginActivator - Setting browserstackPluginEnabled (BROWSERSTACK_PLUGIN_ENABLED) in plugin prefs - true
+23:10:02.920 [main] INFO  c.b.actions.BrowserStackPluginToggle - Is Enabled file:/C:/Users/ankit/Automation/Automartion-Project
+23:13:11.019 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+23:13:11.019 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys [BROWSERSTACK_PLUGIN_ENABLED]
+23:13:11.019 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/Automartion-Project
+23:13:11.019 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+23:13:11.020 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys [BROWSERSTACK_PLUGIN_ENABLED]
+23:13:11.020 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/Automartion-Project
+23:20:25.597 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+23:20:25.597 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys [BROWSERSTACK_PLUGIN_ENABLED]
+23:20:25.597 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/Automartion-Project
+23:20:25.597 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+23:20:25.597 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys [BROWSERSTACK_PLUGIN_ENABLED]
+23:20:25.598 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/Automartion-Project
+23:28:01.074 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+23:28:01.074 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys [BROWSERSTACK_PLUGIN_ENABLED]
+23:28:01.075 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/Automartion-Project
+23:28:01.075 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+23:28:01.075 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys [BROWSERSTACK_PLUGIN_ENABLED]
+23:28:01.076 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/Automartion-Project
+23:32:01.457 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+23:32:01.457 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys [BROWSERSTACK_PLUGIN_ENABLED]
+23:32:01.458 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/Automartion-Project
+23:32:01.458 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+23:32:01.458 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys [BROWSERSTACK_PLUGIN_ENABLED]
+23:32:01.459 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/Automartion-Project
+23:33:52.276 [Worker-393: Launching Automartion-Project_testng.xml] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+23:33:52.276 [Worker-393: Launching Automartion-Project_testng.xml] INFO  c.b.BrowserStackPluginActivator - Existing javaagentArgline (BROWSERSTACK_JAVAAGENT_ARGLINE) in plugin prefs is 
+23:33:52.277 [Worker-393: Launching Automartion-Project_testng.xml] INFO  c.b.BrowserStackPluginActivator - Prefs Keys [BROWSERSTACK_PLUGIN_ENABLED]
+23:33:52.277 [Worker-393: Launching Automartion-Project_testng.xml] INFO  c.b.BrowserStackPluginActivator - The environment variables for the launch configuration are {BROWSERSTACK_EXEC_SOURCE=eclipse/1.0.3}
+23:34:00.472 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+23:34:00.472 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys [BROWSERSTACK_PLUGIN_ENABLED]
+23:34:00.473 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/Automartion-Project
+23:34:00.473 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+23:34:00.473 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys [BROWSERSTACK_PLUGIN_ENABLED]
+23:34:00.473 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/Automartion-Project
+23:34:01.407 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+23:34:01.407 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys [BROWSERSTACK_PLUGIN_ENABLED]
+23:34:01.408 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/Automartion-Project
+23:34:01.408 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+23:34:01.408 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys [BROWSERSTACK_PLUGIN_ENABLED]
+23:34:01.409 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/Automartion-Project
+23:34:06.215 [Worker-393: Launching Automartion-Project_testng.xml] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+23:34:06.215 [Worker-393: Launching Automartion-Project_testng.xml] INFO  c.b.BrowserStackPluginActivator - Existing javaagentArgline (BROWSERSTACK_JAVAAGENT_ARGLINE) in plugin prefs is 
+23:34:06.216 [Worker-393: Launching Automartion-Project_testng.xml] INFO  c.b.BrowserStackPluginActivator - Prefs Keys [BROWSERSTACK_PLUGIN_ENABLED]
+23:34:06.216 [Worker-393: Launching Automartion-Project_testng.xml] INFO  c.b.BrowserStackPluginActivator - The environment variables for the launch configuration are {BROWSERSTACK_EXEC_SOURCE=eclipse/1.0.3}
+23:34:58.006 [Worker-394: Launching Automartion-Project_testng.xml] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+23:34:58.007 [Worker-394: Launching Automartion-Project_testng.xml] INFO  c.b.BrowserStackPluginActivator - Existing javaagentArgline (BROWSERSTACK_JAVAAGENT_ARGLINE) in plugin prefs is 
+23:34:58.007 [Worker-394: Launching Automartion-Project_testng.xml] INFO  c.b.BrowserStackPluginActivator - Prefs Keys [BROWSERSTACK_PLUGIN_ENABLED]
+23:34:58.008 [Worker-394: Launching Automartion-Project_testng.xml] INFO  c.b.BrowserStackPluginActivator - The environment variables for the launch configuration are {BROWSERSTACK_EXEC_SOURCE=eclipse/1.0.3}
+23:35:22.502 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+23:35:22.502 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys [BROWSERSTACK_PLUGIN_ENABLED]
+23:35:22.502 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/Automartion-Project
+23:35:22.502 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+23:35:22.502 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys [BROWSERSTACK_PLUGIN_ENABLED]
+23:35:22.503 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/Automartion-Project
+23:35:24.095 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+23:35:24.095 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys [BROWSERSTACK_PLUGIN_ENABLED]
+23:35:24.096 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/Automartion-Project
+23:35:24.096 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+23:35:24.096 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys [BROWSERSTACK_PLUGIN_ENABLED]
+23:35:24.097 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/Automartion-Project
+23:35:25.021 [main] INFO  c.b.BrowserStackPluginActivator - Setting browserstackPluginEnabled (BROWSERSTACK_PLUGIN_ENABLED) in plugin prefs - false
+23:35:25.025 [main] INFO  c.b.actions.BrowserStackPluginToggle - Is Enabled file:/C:/Users/ankit/Automation/Automartion-Project
+23:35:26.038 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+23:35:26.038 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys [BROWSERSTACK_PLUGIN_ENABLED]
+23:35:26.038 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : false P/Automartion-Project
+23:35:26.038 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+23:35:26.039 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys [BROWSERSTACK_PLUGIN_ENABLED]
+23:35:26.039 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : true P/Automartion-Project
+23:35:27.298 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+23:35:27.298 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys [BROWSERSTACK_PLUGIN_ENABLED]
+23:35:27.299 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : false P/Automartion-Project
+23:35:27.299 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+23:35:27.299 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys [BROWSERSTACK_PLUGIN_ENABLED]
+23:35:27.300 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : true P/Automartion-Project
+23:35:28.152 [main] INFO  c.b.BrowserStackPluginActivator - Setting browserstackPluginEnabled (BROWSERSTACK_PLUGIN_ENABLED) in plugin prefs - true
+23:35:28.155 [main] INFO  c.b.actions.BrowserStackPluginToggle - Is Enabled file:/C:/Users/ankit/Automation/Automartion-Project
+23:35:29.938 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+23:35:29.938 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys [BROWSERSTACK_PLUGIN_ENABLED]
+23:35:29.939 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/Automartion-Project
+23:35:29.939 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+23:35:29.939 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys [BROWSERSTACK_PLUGIN_ENABLED]
+23:35:29.939 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/Automartion-Project
+23:35:42.198 [Worker-394: Launching Automartion-Project_testng.xml] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+23:35:42.199 [Worker-394: Launching Automartion-Project_testng.xml] INFO  c.b.BrowserStackPluginActivator - Existing javaagentArgline (BROWSERSTACK_JAVAAGENT_ARGLINE) in plugin prefs is 
+23:35:42.199 [Worker-394: Launching Automartion-Project_testng.xml] INFO  c.b.BrowserStackPluginActivator - Prefs Keys [BROWSERSTACK_PLUGIN_ENABLED]
+23:35:42.200 [Worker-394: Launching Automartion-Project_testng.xml] INFO  c.b.BrowserStackPluginActivator - The environment variables for the launch configuration are {BROWSERSTACK_EXEC_SOURCE=eclipse/1.0.3}
+23:36:17.317 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+23:36:17.317 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys [BROWSERSTACK_PLUGIN_ENABLED]
+23:36:17.318 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : false P/Automation-Framework
+23:36:17.318 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+23:36:17.318 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys [BROWSERSTACK_PLUGIN_ENABLED]
+23:36:17.319 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : true P/Automation-Framework
+23:36:18.694 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+23:36:18.694 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys [BROWSERSTACK_PLUGIN_ENABLED]
+23:36:18.695 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : false P/Automation-Framework
+23:36:18.695 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+23:36:18.695 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys [BROWSERSTACK_PLUGIN_ENABLED]
+23:36:18.696 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : true P/Automation-Framework
+23:36:28.264 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+23:36:28.264 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys [BROWSERSTACK_PLUGIN_ENABLED]
+23:36:28.265 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/Automartion-Project
+23:36:28.265 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+23:36:28.265 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys [BROWSERSTACK_PLUGIN_ENABLED]
+23:36:28.265 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/Automartion-Project
+23:36:30.053 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+23:36:30.054 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys [BROWSERSTACK_PLUGIN_ENABLED]
+23:36:30.054 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/Automartion-Project
+23:36:30.055 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+23:36:30.055 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys [BROWSERSTACK_PLUGIN_ENABLED]
+23:36:30.056 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/Automartion-Project
+23:36:45.500 [Worker-392: Launching Automartion-Project_testng.xml] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+23:36:45.500 [Worker-392: Launching Automartion-Project_testng.xml] INFO  c.b.BrowserStackPluginActivator - Existing javaagentArgline (BROWSERSTACK_JAVAAGENT_ARGLINE) in plugin prefs is 
+23:36:45.501 [Worker-392: Launching Automartion-Project_testng.xml] INFO  c.b.BrowserStackPluginActivator - Prefs Keys [BROWSERSTACK_PLUGIN_ENABLED]
+23:36:45.501 [Worker-392: Launching Automartion-Project_testng.xml] INFO  c.b.BrowserStackPluginActivator - The environment variables for the launch configuration are {BROWSERSTACK_EXEC_SOURCE=eclipse/1.0.3}
+23:37:01.660 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+23:37:01.660 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys [BROWSERSTACK_PLUGIN_ENABLED]
+23:37:01.661 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/Automartion-Project
+23:37:01.661 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+23:37:01.661 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys [BROWSERSTACK_PLUGIN_ENABLED]
+23:37:01.661 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/Automartion-Project
+23:37:29.151 [Worker-390: Launching Automartion-Project_testng.xml] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+23:37:29.151 [Worker-390: Launching Automartion-Project_testng.xml] INFO  c.b.BrowserStackPluginActivator - Existing javaagentArgline (BROWSERSTACK_JAVAAGENT_ARGLINE) in plugin prefs is 
+23:37:29.152 [Worker-390: Launching Automartion-Project_testng.xml] INFO  c.b.BrowserStackPluginActivator - Prefs Keys [BROWSERSTACK_PLUGIN_ENABLED]
+23:37:29.152 [Worker-390: Launching Automartion-Project_testng.xml] INFO  c.b.BrowserStackPluginActivator - The environment variables for the launch configuration are {BROWSERSTACK_EXEC_SOURCE=eclipse/1.0.3}
+23:37:53.817 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+23:37:53.817 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys [BROWSERSTACK_PLUGIN_ENABLED]
+23:37:53.817 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/Automartion-Project
+23:37:53.818 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+23:37:53.818 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys [BROWSERSTACK_PLUGIN_ENABLED]
+23:37:53.819 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/Automartion-Project
+23:37:55.291 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+23:37:55.291 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys [BROWSERSTACK_PLUGIN_ENABLED]
+23:37:55.292 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/Automartion-Project
+23:37:55.292 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+23:37:55.292 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys [BROWSERSTACK_PLUGIN_ENABLED]
+23:37:55.293 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/Automartion-Project
+23:37:59.861 [main] INFO  c.b.launchers.LaunchMavenCommand - Executing maven archetype command - browserstack-sdk-archetype-integrate
+23:37:59.869 [main] INFO  c.b.launchers.LaunchMavenCommand - The maven properties for launcher are [archetypeVersion=1.2, archetypeGroupId=com.browserstack, archetypeArtifactId=browserstack-sdk-archetype-integrate, BROWSERSTACK_ACCESS_KEY=YOUR_ACCESS_KEY, groupId=com.browserstack, artifactId=java-archetype-integrate, BROWSERSTACK_USERNAME=YOUR_USERNAME, BROWSERSTACK_FRAMEWORK=java, BUILD_NAME=browserstack build, version=1.0, PROJECT_NAME=BrowserStack Sample, BROWSERSTACK_SOURCE=java:eclipse:v1.0.3]
+23:37:59.870 [Worker-392: Launching mavenrun-22b11859-eb55-4fd7-aa05-0ae8c81ce927] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+23:38:12.953 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+23:38:12.953 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys [BROWSERSTACK_PLUGIN_ENABLED]
+23:38:12.954 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/Automartion-Project
+23:38:12.954 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+23:38:12.954 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys [BROWSERSTACK_PLUGIN_ENABLED]
+23:38:12.954 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/Automartion-Project
+23:38:26.558 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+23:38:26.558 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys [BROWSERSTACK_PLUGIN_ENABLED]
+23:38:26.558 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/Automartion-Project
+23:38:26.558 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+23:38:26.558 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys [BROWSERSTACK_PLUGIN_ENABLED]
+23:38:26.558 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/Automartion-Project
+23:38:27.769 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+23:38:27.769 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys [BROWSERSTACK_PLUGIN_ENABLED]
+23:38:27.770 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/Automartion-Project
+23:38:27.770 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+23:38:27.770 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys [BROWSERSTACK_PLUGIN_ENABLED]
+23:38:27.771 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/Automartion-Project
+23:38:31.456 [Worker-394: Launching Automartion-Project_testng.xml] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+23:38:31.457 [Worker-394: Launching Automartion-Project_testng.xml] INFO  c.b.BrowserStackPluginActivator - Existing javaagentArgline (BROWSERSTACK_JAVAAGENT_ARGLINE) in plugin prefs is 
+23:38:31.457 [Worker-394: Launching Automartion-Project_testng.xml] INFO  c.b.BrowserStackPluginActivator - Prefs Keys [BROWSERSTACK_PLUGIN_ENABLED]
+23:38:31.457 [Worker-394: Launching Automartion-Project_testng.xml] INFO  c.b.BrowserStackPluginActivator - The environment variables for the launch configuration are {BROWSERSTACK_EXEC_SOURCE=eclipse/1.0.3}
+23:38:34.972 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+23:38:34.972 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys [BROWSERSTACK_PLUGIN_ENABLED]
+23:38:34.973 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/Automartion-Project
+23:38:34.973 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+23:38:34.973 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys [BROWSERSTACK_PLUGIN_ENABLED]
+23:38:34.973 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/Automartion-Project
+23:38:36.252 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+23:38:36.252 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys [BROWSERSTACK_PLUGIN_ENABLED]
+23:38:36.253 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/Automartion-Project
+23:38:36.253 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+23:38:36.253 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys [BROWSERSTACK_PLUGIN_ENABLED]
+23:38:36.254 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/Automartion-Project
+23:38:37.304 [main] INFO  c.b.BrowserStackPluginActivator - Setting browserstackPluginEnabled (BROWSERSTACK_PLUGIN_ENABLED) in plugin prefs - false
+23:38:37.307 [main] INFO  c.b.actions.BrowserStackPluginToggle - Is Enabled file:/C:/Users/ankit/Automation/Automartion-Project
+23:38:40.783 [Worker-393: Launching Automartion-Project_testng.xml] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+23:38:40.783 [Worker-393: Launching Automartion-Project_testng.xml] INFO  c.b.BrowserStackPluginActivator - Existing javaagentArgline (BROWSERSTACK_JAVAAGENT_ARGLINE) in plugin prefs is 
+23:38:40.784 [Worker-393: Launching Automartion-Project_testng.xml] INFO  c.b.BrowserStackPluginActivator - Prefs Keys [BROWSERSTACK_PLUGIN_ENABLED]
+23:38:40.784 [Worker-393: Launching Automartion-Project_testng.xml] INFO  c.b.BrowserStackPluginActivator - Is BrowserStack Plugin enabled during the launch? - false
+23:38:40.784 [Worker-393: Launching Automartion-Project_testng.xml] INFO  c.b.BrowserStackPluginActivator - The environment variables for the launch configuration are {BROWSERSTACK_TEST_OBSERVABILITY=false, BROWSERSTACK_AUTOMATION=false, BROWSERSTACK_PLUGIN_SDK_ENABLED=false}
+23:39:25.333 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+23:39:25.333 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys [BROWSERSTACK_PLUGIN_ENABLED]
+23:39:25.333 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : false P/Automartion-Project
+23:39:25.334 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+23:39:25.334 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys [BROWSERSTACK_PLUGIN_ENABLED]
+23:39:25.334 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : true P/Automartion-Project
