@@ -8,6 +8,7 @@ import org.openqa.selenium.support.PageFactory;
 
 import com.test.actiondrivers.BrowserAction;
 import com.test.base.BaseClass;
+import com.test.utilities.Log;
 
 public class HomePage extends BaseClass {
 
@@ -26,11 +27,47 @@ public class HomePage extends BaseClass {
 	@FindBy(xpath = "//li[@class='main-navigation-level1-item']")
 	List<WebElement> browseByCategoryItems ;
 	
+	@FindBy(css = "a[title='About']")
+	WebElement aboutPage ;
+	
+	@FindBy(id = "ShopLoginForm_Login")
+	WebElement usernameField ;
+	
+	@FindBy(name = "ShopLoginForm_Password")
+	WebElement passwordField ;
+	
+	@FindBy(name = "login")
+	WebElement loginButton ;
+	
+	@FindBy(css = "div[role='alert']")
+	WebElement incorrectCredsAlert ;
 	
 	
 	
 	public HomePage() {
 		PageFactory.initElements(driver, this);
+	}
+	
+	public void login(String username , String password) {
+		BrowserAction.waitForElement(driver, usernameField,10);
+		usernameField.sendKeys(username);
+		Log.info("Username Entered");
+		passwordField.sendKeys(password);
+		Log.info("Password Entered");
+		
+		loginButton.click();
+		Log.info("Login Button clicked");
+		
+	}
+	
+	public boolean validateIncorrectCredsAlert() {
+		
+		if(BrowserAction.waitForElement(driver, incorrectCredsAlert,20)) {
+			Log.info("Alert showed up for Incorrect credentials",driver);
+			return true;
+		}
+		
+		return false;
 	}
 	
 	public void popUpClose() {
@@ -39,18 +76,22 @@ public class HomePage extends BaseClass {
 	}
 	
 	public void searchforProduct(String itemName){
+		BrowserAction.waitForElement(driver, searchBar,10);
 		searchBar.sendKeys(itemName);
+		Log.info("Enter search value : "+itemName);
 	}
 	
 	public void clickOnSearch() {
 		BrowserAction.waitForElement(driver, searchButton, 20);
 		searchButton.click();
+		Log.info("Search Button Clicked");
 		
 	}
 	
 	public void clickOnBrowseByCategory() {
 		BrowserAction.waitForElement(driver, browseByCategory,10);
 		browseByCategory.click();
+		Log.info("BrowseByCategory Selected");
 	}
 	
 	public void selectCategory(String categoryName) {
@@ -61,28 +102,22 @@ public class HomePage extends BaseClass {
 			if(item.getText().contains(categoryName)) {
 				flag= true;
 				item.click();
+				Log.info(item.getText() +"Selected");
 				break;
 			}
 		}
 		
-		if(!flag)System.out.println("category not found");
+		if(!flag) {
+			Log.fatal(categoryName+" not found");;
+		}
 	}
 	
-	public void selectCategory(String categoryName , String subCategoryName) {
-		BrowserAction.waitForElement(driver, browseByCategoryItems.get(0), 10);
-		
-		boolean flag = false;
-		
-		for(WebElement item : browseByCategoryItems) {
-			System.out.println(item.getText());
-			if(item.getText().contains(categoryName)) {
-				flag = true;
-				item.click();
-				break;
-			}
-		}
-		if(!flag)System.out.println("category not found");
-		
+
+	
+	public void clickOnAboutPage() {
+		BrowserAction.waitForElement(driver, aboutPage, 10);
+		aboutPage.click();
+		Log.info("About section clicked");
 	}
 	
 

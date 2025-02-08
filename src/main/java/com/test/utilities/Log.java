@@ -12,7 +12,7 @@ import com.test.base.BaseClass;
 public class Log {
 
 	// Initialize Log4j logs
-	public static Logger Log = LogManager.getLogger();
+	public static Logger Log = LogManager.getLogger("Logs");
 
 	public static void startTestCase(String sTestCaseName) {
 		Log.info("=====================================" + sTestCaseName
