@@ -19,7 +19,7 @@ public class TestCases extends BaseClass {
 		
 	}
 	
-	@Test(enabled = false)
+	@Test(enabled = true)
 	public void validateAboutPage() throws InterruptedException {
 		Log.info("Home Page Loaded",driver);
 		HomePage hp = new HomePage();
@@ -32,23 +32,12 @@ public class TestCases extends BaseClass {
 		}
 	}
 	
-	@Test(enabled = false ,description = "Valid Wrong Credentials Error Message")
+	@Test(enabled = true ,description = "Valid Wrong Credentials Error Message")
 	public void checkErrorMessageForWrongCreds() {
 		Log.info("Home Page Loaded",driver);
 		HomePage hp = new HomePage();
 		hp.login("test@gmail.com", "apple@!23");
-		
 		Assert.assertTrue(hp.validateIncorrectCredsAlert(), "No Alert showed up");
-		
-
-	}
-	
-	@Test(enabled = false)
-	public void selectAnyCategory() throws InterruptedException {
-		Log.info("Home Page Loaded",driver);
-		HomePage hp = new HomePage();
-		hp.clickOnBrowseByCategory();
-		hp.selectCategory("Oil");
 	}
 	
 	@Test(enabled = true)
@@ -58,10 +47,15 @@ public class TestCases extends BaseClass {
 		String searchFor = "Castor Oil";
 		hp.searchforProduct(searchFor);
 		hp.clickOnSearch();
-		
 		Assert.assertTrue(plp.searchresult(searchFor), "Search Fail");
-		
-		
+	}
+	
+	@Test(enabled = true)
+	public void selectAnyCategory() throws InterruptedException {
+		Log.info("Home Page Loaded",driver);
+		HomePage hp = new HomePage();
+		hp.clickOnBrowseByCategory();
+		hp.selectCategory("Oil & Lubricants");
 	}
 	
 	@Test(enabled = true)
@@ -76,7 +70,7 @@ public class TestCases extends BaseClass {
 	
 	@AfterMethod
 	public void quiteBrowser() {
-//		driver.quit();
+		driver.quit();
 	}
 
 }

@@ -24,7 +24,7 @@ public class HomePage extends BaseClass {
 	@FindBy(css = "a[title='Browse By Category']")
 	WebElement browseByCategory ;
 	
-	@FindBy(xpath = "//li[@class='main-navigation-level1-item']")
+	@FindBy(xpath = "//li[@class='main-navigation-level1-item']/div/a")
 	List<WebElement> browseByCategoryItems ;
 	
 	@FindBy(css = "a[title='About']")
@@ -94,15 +94,17 @@ public class HomePage extends BaseClass {
 		Log.info("BrowseByCategory Selected");
 	}
 	
-	public void selectCategory(String categoryName) {
+	public void selectCategory(String categoryName) throws InterruptedException {
 		BrowserAction.waitForElement(driver, browseByCategoryItems.get(0), 10);
 		
 		boolean flag = false;
+		System.out.println("No. of items :" +browseByCategoryItems.size());
 		for(WebElement item : browseByCategoryItems) {
-			if(item.getText().contains(categoryName)) {
-				flag= true;
+			if(item.getText().toLowerCase().contains(categoryName.toLowerCase())) {
+				flag = true;
+				Log.info(item.getText() + " selected");
 				item.click();
-				Log.info(item.getText() +"Selected");
+
 				break;
 			}
 		}

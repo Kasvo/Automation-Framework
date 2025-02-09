@@ -1,8 +1,19 @@
-22:40:45.643 [main]INFO  com.test.utilities.Log - Check Home Page 
-22:48:40.279 [main]INFO  com.test.utilities.Log - Check Home Page 
-23:00:53.815 [main]INFO  com.test.utilities.Log - Home Page
-23:04:44.551 [main]INFO  com.test.utilities.Log - Home Page
-23:37:37.083 [main]INFO  com.test.utilities.Log - Home Page Loaded
-23:38:44.116 [main]INFO  com.test.utilities.Log - Home Page Loaded
-23:42:55.168 [main]INFO  com.test.utilities.Log - Home Page Loaded
-23:47:30.419 [main]INFO  com.test.utilities.Log - Home Page Loaded
+13:53:31.894 [main]INFO  Logs - Home Page Loaded
+13:53:32.149 [main]INFO  Logs - Username Entered
+13:53:32.192 [main]INFO  Logs - Password Entered
+13:53:34.484 [main]INFO  Logs - Login Button clicked
+13:53:34.525 [main]INFO  Logs - Alert showed up for Incorrect credentials
+13:53:38.951 [main]INFO  Logs - Enter search value : Oil
+13:53:42.424 [main]INFO  Logs - Search Button Clicked
+13:53:45.676 [main]INFO  Logs - PDP Page
+13:53:49.738 [main]INFO  Logs - Enter search value : Castor Oil
+13:53:53.240 [main]INFO  Logs - Search Button Clicked
+13:53:53.312 [main]INFO  Logs - Results : Home/
+Search Results: CASTOR OIL
+13:53:53.320 [main]INFO  Logs - Search Done
+13:53:57.716 [main]INFO  Logs - Home Page Loaded
+13:53:57.959 [main]INFO  Logs - BrowseByCategory Selected
+13:53:57.997 [main]INFO  Logs - OIL & LUBRICANTS selected
+13:54:05.375 [main]INFO  Logs - Home Page Loaded
+13:54:09.887 [main]INFO  Logs - About section clicked
+13:54:09.895 [main]INFO  Logs - User is in About page
